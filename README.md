@@ -1,6 +1,6 @@
-# ESPHome BLE Keyboard
-[![CodeQL](https://img.shields.io/badge/CODEQL-Passing-30C854.svg?style=for-the-badge)](https://github.com/dmamontov/hass-miwifi/actions?query=CodeQL)
-[![Telegram](https://img.shields.io/badge/Telegram-channel-34ABDF.svg?style=for-the-badge)](https://t.me/hass_mamontov_tech)
+# ESPHome BLE Keyboard Improved
+
+
 
 Custom [esphome](https://esphome.io/) component to implement a virtual BLE keyboard.
 
