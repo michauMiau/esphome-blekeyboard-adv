@@ -39,8 +39,8 @@ Custom [esphome](https://esphome.io/) component to implement a virtual BLE keybo
 | Windows | Fully supported         |
 | Linux   | Fully supported         |
 | Android | Fully supported         |
-| MacOS   | It does not work stably |
-| IOS     | It does not work stably |
+| MacOS   | Didn't test             |
+| IOS     | Didn't test             |
 
 ## Base configuration
 
@@ -52,17 +52,17 @@ Custom [esphome](https://esphome.io/) component to implement a virtual BLE keybo
 
 ```yaml
 external_components:
-  - source: github://dmamontov/esphome-blekeyboard
+  - source: github://michauMiau/esphome-blekeyboard-adv
 ```
 
 ### Configuration
 
 ```yaml
 ble_keyboard:
-  id: mamontech_keyboard
-  name: "MamonTechKeyboard"
-  manufacturer_id: "MamonTech"
-  battery_level: 50
+  id: esphome_keyboard
+  name: "ESPHomeKeyboard"
+  manufacturer_id: "ESPHome"
+  battery_level: 100
   reconnect: true
   buttons: true
   use_default_libs: false
@@ -156,5 +156,6 @@ ble_keyboard.stop: my_ble_keyboard
 
 ## Credits
 * Thanks to all [ESPHome](https://github.com/esphome/esphome) contributors;
+* Thanks to ... for the original repo
 * Thanks to [@T-vK](https://github.com/T-vK) for the [ESP32-BLE-Keyboard](https://github.com/T-vK/ESP32-BLE-Keyboard) library;
 * Thanks to [@h2zero](https://github.com/h2zero) for the [NimBLE-Arduino](https://github.com/h2zero/NimBLE-Arduino) library.
