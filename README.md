@@ -46,7 +46,7 @@ Custom [esphome](https://esphome.io/) component to implement a virtual BLE keybo
 
 ### Requirements
 * **Board**: esp32, esp32s2, esp32s3, esp32c3 and esp32h2;
-* **Framework**: arduino.
+* **Framework**: ESP-IDF *(soon)*
 
 ### Adding a component
 
